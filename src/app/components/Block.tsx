@@ -1,5 +1,6 @@
 import Image from 'next/image';
-const Card = () => {
+
+export default function Block() {
   return (
     <div>
       <section className='grid grid-cols-2 gap-5 px-40 py-5 text-gray-800'>
@@ -12,9 +13,9 @@ const Card = () => {
         />
         <div>
           <div className='my-[2rem]'>
-            <h1 className='text-3xl'>Hi, I'm Rodolfo</h1>
+            <h1 className='text-3xl'>Hi, I&apos;m Rodolfo</h1>
           </div>
-          <p>I'm your new business partner!</p>
+          <p>I&apos;m your new business partner!</p>
           <p>
             My mission is to help small and medium-sized business grow by
             leveraging technology to drive growth and revenue.
@@ -26,4 +27,3 @@ const Card = () => {
   );
 };
 
-export default Card;

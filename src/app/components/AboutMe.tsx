@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import Card from './Block';
+import Block from './Block';
 
-const AboutMe = () => {
+export default function AboutMe() {
   return (
     <section className='my-2'>
-      <Card />
+      <Block />
       <h1 className='text-2xl text-center py-10'>My Hobbies Are</h1>
     </section>
   );
 };
 
-export default AboutMe;
+
